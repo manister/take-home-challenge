@@ -45,8 +45,6 @@ const useSaleSearch: IUseSaleSearch = () => {
     })
   );
 
-  console.log({ response });
-
   const { isLoading, isError } = response;
 
   let saleSearch: ISaleSearch | null = null;

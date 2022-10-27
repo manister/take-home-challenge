@@ -55,7 +55,6 @@ const SearchResults = (props: Props) => {
 
   if (saleSearch && saleSearch.resultCount === 0) {
     //if we have 0 results
-    console.log({ saleSearch });
     return (
       <>
         <SubTitle>No results found!</SubTitle>
