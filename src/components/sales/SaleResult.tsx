@@ -19,7 +19,7 @@ const SaleResult = (props: Props) => {
       <>
         <SaleFullProfile
           title={sale.editorial.title}
-          destinationName={sale.editorial.destination}
+          destinationName={sale.editorial.destinationName}
           body={sale.editorial.hotelDetails}
           price={sale.prices.leadRate.forDisplay}
           photos={sale.photos}

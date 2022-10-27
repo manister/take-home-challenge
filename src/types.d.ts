@@ -1,40 +1,35 @@
-type JSONValue =
-    | string
-    | number
-    | boolean
-    | JSONObject
+type JSONValue = string | number | boolean | JSONObject;
 
 interface JSONObject {
-    [x: string]: JSONValue;
+  [x: string]: JSONValue;
 }
 
-
 interface ISale {
-  id: string,
+  id: string;
   editorial: {
-    destinationName: string,
-    title: string
-  }
+    destinationName: string;
+    title: string;
+  };
   photos: {
-    url: string
-  }[]
+    url: string;
+  }[];
 }
 
 interface ISaleSearch {
-  sales: ISale[],
-  resultCount: number
+  sales: ISale[];
+  resultCount: number;
 }
 
 interface ISaleComplete {
   editorial: {
-    destination: string
-    hotelDetails: string
-    title: string
-  },
-  photos: {url: string}[]
+    destinationName: string;
+    hotelDetails: string;
+    title: string;
+  };
+  photos: { url: string }[];
   prices: {
     leadRate: {
-      forDisplay: string
-    }
-  }
+      forDisplay: string;
+    };
+  };
 }
