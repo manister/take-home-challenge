@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## ENV!
+
+You will need to add and .env file to run locally. Check `.env.example`.
+
+```
+REACT_APP_ENDPOINT={{ ENDPOINT_URL_HERE }}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,7 +37,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Assumptions made 
+## Assumptions made
 
 ### Results to show
 
@@ -46,7 +54,6 @@ This seems inconsistent, so I have taken this to mean that the initial results p
 
 Empty searches work, and return what the API returns - unfiltered results.
 
-
 ## Possible improvements
 
 ### Styling
@@ -59,10 +66,8 @@ There are no unit tests, but none were required as part of this task.
 
 ### Error handling
 
-The error handing is pretty basic. Would be better if we had different handling for different errors but was out of the scope of the task.
+The error handing is pretty basic. Just spits out a title with the error text. Would be better if we had different handling for different errors, with better information for the user, and logging for us, but was out of the scope of the task.
 
 ### SSR
 
 SSR would be good. Could use something like NextJS to have static generation for main pages, then SSR or ISR for search results.
-
-
