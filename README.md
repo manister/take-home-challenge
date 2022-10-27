@@ -81,3 +81,7 @@ SSR would be good. Could use something like NextJS to have static generation for
 ### Meta
 
 Page titles, meta descriptions, other meta data and structured data on the page have not been included as out of scope of this task.
+
+### Images
+
+Images are not optimised! We should be optimising them to be the right size they are loaded at. Out of scope of this task.
