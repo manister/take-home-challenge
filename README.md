@@ -76,3 +76,8 @@ The error handing is pretty basic. Just spits out a title with the error text. W
 ### SSR
 
 SSR would be good. Could use something like NextJS to have static generation for main pages, then SSR or ISR for search results.
+
+
+### Meta
+
+Page titles, meta descriptions, other meta data and structured data on the page have not been included as out of scope of this task.
