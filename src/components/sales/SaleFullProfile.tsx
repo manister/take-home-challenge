@@ -1,9 +1,6 @@
 import parse from "html-react-parser";
 import PageTitle from "../elements/PageTitle";
 
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-
 interface Props {
   title: string;
   destinationName: string;
