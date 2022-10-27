@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-https://bucolic-cupcake-51ed4d.netlify.app/
+Deploy: https://bucolic-cupcake-51ed4d.netlify.app/
 
-## ENV
+## ENV (important!)
 
 You will need to add and .env file to run locally. Check `.env.example`.
 
