@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/take-home-challenge/static/css/main.21148fb3.css",
+    "main.js": "/take-home-challenge/static/js/main.644c4a60.js",
+    "index.html": "/take-home-challenge/index.html",
+    "main.21148fb3.css.map": "/take-home-challenge/static/css/main.21148fb3.css.map",
+    "main.644c4a60.js.map": "/take-home-challenge/static/js/main.644c4a60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21148fb3.css",
+    "static/js/main.644c4a60.js"
+  ]
+}
