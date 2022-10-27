@@ -14,9 +14,10 @@ const SaleFullProfile = (props: Props) => {
   return (
     <section className="max-w-prose">
       <PageTitle>{title}</PageTitle>
-      <p className="font-bold mb-3 text-2xl text-center">{destinationName}</p>
 
-      <p className="font-bold mb-3 text-xl text-center">{price}</p>
+      <p className="font-bold my-3 text-xl text-center">{destinationName}</p>
+
+      <p className="font-bold mb-3 text-lg text-center">{price}</p>
 
       {photos.length > 0 ? (
         <img key={photos[0].url} alt={title} src={photos[0].url} />
